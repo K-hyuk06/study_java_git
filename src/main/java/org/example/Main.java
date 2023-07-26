@@ -20,7 +20,7 @@ public class Main {
         // Press ⌃R or click the green arrow button in the gutter to run the code.
         for (int i = 1; i <= 5; i++) {
             try{
-                Thread.sleep(1000*10);
+                Thread.sleep(1000);
             } catch(InterruptedException e){
                 e.printStackTrace();
             }
